@@ -33,6 +33,9 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link href="http://fonts.cdnfonts.com/css/niagara-engraved" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&family=Limelight&display=swap" rel="stylesheet">  
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.0/css/all.css">
   <!-- Vendor CSS Files -->
@@ -46,7 +49,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <?php echo include("includes/google-ads.php"); ?>
+  <?php //echo include("includes/google-ads.php"); ?>
 </head>
 
 <body>
@@ -56,8 +59,8 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
 
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center"><span>+52 999 155 9907</span></i>
-        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Lun-Sab: 9:00 AM - 7:00 PM</span></i>
+        <!--<i class="bi bi-phone d-flex align-items-center"><span>+52 999 155 9907</span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Lun-Sab: 9:00 AM - 7:00 PM</span></i>-->
       </div>
 
       <div class="languages d-none d-md-flex align-items-center">
@@ -79,7 +82,7 @@
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Imperio B (GIT)</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Imperio B</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -90,7 +93,7 @@
           <li><a class="nav-link scrollto" href="#menu">Paquetes</a></li>
           <!-- <li><a class="nav-link scrollto" href="#specials">Especialidades</a></li> -->
           <li><a class="nav-link scrollto" href="#events">Servicios</a></li>
-          <li><a class="nav-link scrollto" href="#chefs">Equipo</a></li>
+          <!--<li><a class="nav-link scrollto" href="#chefs">Equipo</a></li>-->
           <li><a class="nav-link scrollto" href="#gallery">Galeria</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -124,7 +127,7 @@
       <div class="row">
         <div class="col-lg-8">
           <h1>Bienvenidos a <span>Imperio B</span></h1>
-          <h2>Organizando los mejores eventos desde el 2018</h2>
+          <h2>No buscamos hacer tu evento, <span class="dorado">BUSCAMOS HACER TÚ SUEÑO REALIDAD.</span></h2>
 
           <div class="btns">
             <a href="#menu" class="btn-menu animated fadeInUp scrollto">Servicios</a>
@@ -187,24 +190,32 @@
           <div class="col-lg-4">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
               <span>01</span>
-              <h4>Lorem Ipsum</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+              <h4>Presupuesto con el que cuentan</h4>
+              <p>les será muy útil nuestra herramienta de "Presupuestador" en la que podrán 
+                definir el costo estimado y final de su matrimonio, además de dividir cada 
+                gasto por categoría; de este modo, sabrán en qué destinan sus ahorros para este gran día.</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="200">
               <span>02</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+              <h4>Estilo del matrimonio y Catering</h4>
+              <p>Quieren una celebración al aire libre con decoración de matrimonio campestre; sin embargo, están indecisos 
+                entre qué platos ofrecer a los invitados. ¿Con qué acompañarlo? 
+                ¿El cóctel debería ser más grande? Son preguntas que nosotros como profesionales podemos responder.</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
               <span>03</span>
-              <h4> Ad ad velit qui</h4>
-              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+              <h4>Flexibilidad</h4>
+              <p>Nos ajustamos a tu necesidades, 
+                es decir, si ustedes desean tener un banquete completamente vegano, 
+                la propuesta debe ser tan variada y de calidad como la que le ofrecerían 
+                a cualquier pareja. O si alguno de ustedes o de sus invitados es celiaco, 
+                alérgico o intolerante a algún alimento</p>
             </div>
           </div>
 
@@ -227,8 +238,11 @@
             <ul id="menu-flters">
               <li data-filter="*" class="filter-active">Todos</li>
               <li data-filter=".filter-starters">Estrella</li>
-              <li data-filter=".filter-salads">Economicos</li>
-              <li data-filter=".filter-specialty">Basicos</li>
+              <li data-filter=".filter-salads">Banquetes</li>
+              <li data-filter=".filter-specialty">Musica DJ</li>
+              <li data-filter=".filter-specialty">Iluminaciòn</li>
+              <li data-filter=".filter-specialty">Fotografia</li>
+              <li data-filter=".filter-specialty">Decoraciòn de lujo</li>
             </ul>
           </div>
         </div>
@@ -435,34 +449,36 @@
 
         <div class="section-title">
           <h2>Servicios</h2>
-          <p>Consulta nuestros costos de servicios</p>
+          <p>Nuestros servicios</p>
         </div>
 
-        <div class="events-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="events-slider swiper-container" data-aos="fade-up" data-aos-delay="5000">
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
               <div class="row event-item">
                 <div class="col-lg-6">
-                  <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
+                  <img src="assets/img/paquetes.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Fiestas de cumpleaños</h3>
+                  <h3>Boda Premium </h3>
                   <div class="price">
-                    <p><span>$189</span></p>
+                    <p><span>$<?php echo number_format("68000",2,'.',','); ?></span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                  Banquete 
+                    + Música DJ + iluminación + fotografía+ Decoración de Lujo
                   </p>
                   <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Menú para el evento</li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Bebidas incluidas</li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Mobiliario</li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Personal de servicio</li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Cortesias</li>
                   </ul>
                   <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
+                    El servicio es por 6 horas continuas 
+                    <br>Aparta tu fecha lo antes posible para que puedas recibir los beneficios.
                   </p>
                 </div>
               </div>
@@ -474,22 +490,24 @@
                   <img src="assets/img/bodas.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Bodas</h3>
+                  <h3>Boda Platino</h3>
                   <div class="price">
-                    <p><span>$290</span></p>
+                    <p><span>$<?php echo number_format("40000",2,'.',','); ?></span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                  Banquete + iluminación + Decoración de Lujo
                   </p>
                   <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Banquete & Mobiliario para 100 personas</li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Menù para el evento</li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Bebidas incluidas</li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> MOBILIARIO </li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> PERSONAL DE SERVICIO</li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Cortesias</li>
                   </ul>
                   <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
+                    El servicio es por 6 horas continuas 
+                    <br>Aparta tu fecha lo antes posible para que puedas recibir los beneficios.
                   </p>
                 </div>
               </div>
@@ -498,25 +516,25 @@
             <div class="swiper-slide">
               <div class="row event-item">
                 <div class="col-lg-6">
-                  <img src="assets/img/event-custom.jpg" class="img-fluid" alt="">
+                  <img src="assets/img/BA-1.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>XV años</h3>
+                  <h3>Arma tu boda</h3>
                   <div class="price">
-                    <p><span>$99</span></p>
+                    <p><span>Los precios pueden variar</span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    Podemos ajustar los servicios a tus necesidades
                   </p>
                   <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Banquete</li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Musica DJ</li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Iluminaciòn</li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Fotografia</li>
+                    <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Decoraciòn de lujo</li>
                   </ul>
                   <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
+                    *Aplican restricciones
                   </p>
                 </div>
               </div>
@@ -749,7 +767,7 @@
     </section><!-- End Gallery Section -->
 
     <!-- ======= Chefs Section ======= -->
-    <section id="chefs" class="chefs">
+    <!--<section id="chefs" class="chefs">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -816,7 +834,7 @@
         </div>
 
       </div>
-    </section><!-- End Chefs Section -->
+    </section>End Chefs Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
