@@ -196,8 +196,8 @@
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <h3 style="font-family: 'Kaushan Script', cursive;font-weight:100;">Queremos hacer tu sueño realidad </h3>
             <p class="fst-italic">
-              Nosotros somos IMPERO B y nuestra historia inicia en el año
-              Creamos cada evento con el corazón, nos gusta realizar decoraciones 
+              Nosotros somos IMPERO B y desde que iniciamos hemos 
+              creado cada evento con el corazón, nos gusta realizar decoraciones 
               únicas que tengan ese sello personalizado para hacerte lucir como anfitrión.
             </p>
             <!-- <ul>
@@ -213,7 +213,7 @@
               Nuestra labor es que disfrutes tu evento desde el momento de la planeación. 
               Permítenos diseñar tu evento, elaborar tu banquete y decorar la recepcion justo como siempre lo has imaginado.
             </p>
-            <h4 style="font-family: 'Kaushan Script', cursive;">
+            <h4 class="dorado" style="font-family: 'Kaushan Script', cursive;">
               Una boda se vive 3 veces: 
               Al soñarla,  
               Al celebrala &  
@@ -238,20 +238,19 @@
           <div class="col-lg-4">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
               <span>01</span>
-              <h4>Presupuesto con el que cuentan</h4>
-              <p>les será muy útil nuestra herramienta de "Presupuestador" en la que podrán 
-                definir el costo estimado y final de su matrimonio, además de dividir cada 
-                gasto por categoría; de este modo, sabrán en qué destinan sus ahorros para este gran día.</p>
+              <h4>Te ayudamos a optimizar tù presupuesto</h4>
+              <p>Les será muy útil nuestra forma de trabajar, ya que con esto podrán 
+                definir el costo estimado para su evento</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="200">
               <span>02</span>
-              <h4>Estilo del matrimonio y Catering</h4>
-              <p>Quieren una celebración al aire libre con decoración de matrimonio campestre; sin embargo, están indecisos 
-                entre qué platos ofrecer a los invitados. ¿Con qué acompañarlo? 
-                ¿El cóctel debería ser más grande? Son preguntas que nosotros como profesionales podemos responder.</p>
+              <h4>Estilo de evento y Catering</h4>
+              <p>¿Como seria mejor mi evento?, ¿Que menú le daria a mis invitado?, ¿Al aire libre o un espacio cerrado con clima?
+                  ¿Estilo romantico o vintage?. <br>
+                  Son preguntas que nosotros como profesionales podemos ayudarte a tomar la mejor opción para ustedes.</p>
             </div>
           </div>
 
@@ -262,7 +261,7 @@
               <p>Nos ajustamos a tu necesidades, 
                 es decir, si ustedes desean tener un banquete completamente vegano, 
                 la propuesta debe ser tan variada y de calidad como la que le ofrecerían 
-                a cualquier pareja. O si alguno de ustedes o de sus invitados es celiaco, 
+                a cualquier pareja. O si alguno de ustedes o de sus invitados es 
                 alérgico o intolerante a algún alimento</p>
             </div>
           </div>
