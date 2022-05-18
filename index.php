@@ -1,3 +1,4 @@
+<?php include("includes/cabecera.php"); ?>
 <!DOCTYPE html>
 <html lang="es">
 

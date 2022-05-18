@@ -1,0 +1,13 @@
+RewriteEngine On
+#Redireccionamiento 301
+#RewriteCond %{HTTP_HOST} ^banqueteraimperio.com
+#RewriteRule ^(.*)$ https://www.banqueteraimperio.com/$1 [R=permanent,L]
+
+#Direcciones amigables
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
