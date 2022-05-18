@@ -35,7 +35,10 @@
   <link href="http://fonts.cdnfonts.com/css/niagara-engraved" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&family=Limelight&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&family=Limelight&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"> 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.0/css/all.css">
   <!-- Vendor CSS Files -->
@@ -49,6 +52,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  
   <?php include("includes/google-ads.php"); ?>
 </head>
 
@@ -59,6 +63,36 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe>
   </noscript>
   <!-- End Google Tag Manager (noscript) -->
+  <!-- Messenger Plugin de chat Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Plugin de chat code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "169791443667509");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v13.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
   <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-center justify-content-md-between">
@@ -95,7 +129,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
           <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
-          <li><a class="nav-link scrollto" href="#menu">Paquetes</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#menu">Paquetes</a></li> -->
           <!-- <li><a class="nav-link scrollto" href="#specials">Especialidades</a></li> -->
           <li><a class="nav-link scrollto" href="#events">Servicios</a></li>
           <!--<li><a class="nav-link scrollto" href="#chefs">Equipo</a></li>-->
@@ -132,7 +166,7 @@
       <div class="row">
         <div class="col-lg-8">
           <h1>Bienvenidos a <span>Imperio B</span></h1>
-          <h2>No buscamos hacer tu evento, <span class="dorado">BUSCAMOS HACER TÚ SUEÑO REALIDAD.</span></h2>
+          <h2>No buscamos hacer tu evento, <span class="dorado">Buscamos hacer tu sueño realidad.</span></h2>
 
           <div class="btns">
             <a href="#menu" class="btn-menu animated fadeInUp scrollto">Servicios</a>
@@ -160,21 +194,30 @@
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>No buscamos hacer tu evento, BUSCAMOS HACER TÚ SUEÑO REALIDAD.</h3>
+            <h3 style="font-family: 'Kaushan Script', cursive;font-weight:100;">Queremos hacer tu sueño realidad </h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Nosotros somos IMPERO B y nuestra historia inicia en el año
+              Creamos cada evento con el corazón, nos gusta realizar decoraciones 
+              únicas que tengan ese sello personalizado para hacerte lucir como anfitrión.
             </p>
-            <ul>
+            <!-- <ul>
               <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
               <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
               <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+            </ul> -->
+            <p class="fst-italic">
+              Nuestra principal objetivo es ofrecer un servicio de calidad, 
+              motivado por darle al cliente y sus invitados un trato único, amable y confiable.
             </p>
+            <p class="fst-italic">
+              Nuestra labor es que disfrutes tu evento desde el momento de la planeación. 
+              Permítenos diseñar tu evento, elaborar tu banquete y decorar la recepcion justo como siempre lo has imaginado.
+            </p>
+            <h4 style="font-family: 'Kaushan Script', cursive;">
+              Una boda se vive 3 veces: 
+              Al soñarla,  
+              Al celebrala &  
+              Al recordarla.</h4>
           </div>
         </div>
 
@@ -187,7 +230,7 @@
 
         <div class="section-title">
           <h2>¿Porque nosotros?</h2>
-          <p>Porque elejirnos</p>
+          <p>Porque elegirnos</p>
         </div>
 
         <div class="row">
@@ -230,7 +273,7 @@
     </section><!-- End Why Us Section -->
 
     <!-- ======= Menu Section ======= -->
-    <section id="menu" class="menu section-bg">
+    <!-- <section id="menu" class="menu section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -347,7 +390,8 @@
         </div>
 
       </div>
-    </section><!-- End Menu Section -->
+    </section> -->
+    <!-- End Menu Section -->
 
     <!-- ======= Specials Section ======= -->
     <!-- <section id="specials" class="specials">
@@ -468,7 +512,7 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Boda Premium </h3>
                   <div class="price">
-                    <p><span>$<?php echo number_format("68000",2,'.',','); ?></span></p>
+                    <p><span>$<?php echo number_format("68000",2,'.',','); ?></span> MXN</p>
                   </div>
                   <p class="fst-italic">
                   Banquete 
@@ -485,6 +529,9 @@
                     El servicio es por 6 horas continuas 
                     <br>Aparta tu fecha lo antes posible para que puedas recibir los beneficios.
                   </p>
+                  <p class="dorado st-italic">
+                    *Todo incluido
+                  </p>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -497,7 +544,7 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Boda Platino</h3>
                   <div class="price">
-                    <p><span>$<?php echo number_format("40000",2,'.',','); ?></span></p>
+                    <p><span>$<?php echo number_format("40000",2,'.',','); ?></span> MXN</p>
                   </div>
                   <p class="fst-italic">
                   Banquete + iluminación + Decoración de Lujo
@@ -514,6 +561,9 @@
                     El servicio es por 6 horas continuas 
                     <br>Aparta tu fecha lo antes posible para que puedas recibir los beneficios.
                   </p>
+                  <p class="dorado st-italic">
+                    *Incluye solo banquete
+                  </p>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -526,7 +576,7 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Arma tu boda</h3>
                   <div class="price">
-                    <p><span>Los precios pueden variar</span></p>
+                    <p><span>*Los precios pueden variar</span></p>
                   </div>
                   <p class="fst-italic">
                     Podemos ajustar los servicios a tus necesidades
@@ -538,7 +588,7 @@
                     <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Fotografia</li>
                     <li><i class="fas fa-circle" style="font-size: 8px;position: relative;top: -2px;left: -1px;"></i> Decoraciòn de lujo</li>
                   </ul>
-                  <p>
+                  <p class="dorado">
                     *Aplican restricciones
                   </p>
                 </div>
@@ -864,7 +914,7 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Dirección:</h4>
-                <p>Calle 7 48y 50 3 etapa pensiones Mérida, México</p>
+                <p>Calle 7 Entre 48 y 50 Pensiones Etapa 3 Mérida, Yucatán, México</p>
               </div>
 
               <div class="open-hours">
@@ -936,7 +986,7 @@
             <div class="footer-info">
               <h3>Imperio B</h3>
               <p>
-                Calle 7 48y 50 3 etapa pensiones <br>
+                Calle 7 Entre 48 y 50 Pensiones Etapa 3 Mérida, Yucatán, México<br>
                 Mérida, México<br><br>
                 <strong>Télefono:</strong> +52 999 155 9907<br>
                 <strong>Correo:</strong> contacto@banqueteraimperio.com<br>
@@ -1015,6 +1065,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- <script src="assets/js/script.js"></script> -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
