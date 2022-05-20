@@ -63,7 +63,7 @@
         }
     
         //----------------------------------------------------------------------
-        private static function image($frame, $pixelPerPoint = 4, $outerFrame = 4) 
+        private static function image($frame, $pixelPerPoint = 4, $outerFrame = 4,$color=[]) 
         {
             $h = count($frame);
             $w = strlen($frame[0]);
@@ -72,20 +72,41 @@
             $imgH = $h + 2*$outerFrame;
             
             $base_image =ImageCreate($imgW, $imgH);
-            
-            $col[0] = ImageColorAllocate($base_image,255,255,255);
-            $col[1] = ImageColorAllocate($base_image,0,0,0);
+          
 
+            if(empty($color[0]) || (count($color[0]) < 3)){
+                $color[0] = [255,255,255];
+            }
+            if(empty($color[1]) || (count($color[1]) < 3)){
+                $color[1] = [0,0,0];
+            }
+            if(empty($color[2]) || (count($color[2]) < 3)){
+                $color[2] = [0,0,0];
+            }
+
+
+
+            $col[0] = ImageColorAllocate($base_image,$color[0][0],$color[0][1],$color[0][2]);
+            $col[1] = ImageColorAllocate($base_image,$color[1][0],$color[1][1],$color[1][2]);
+            $col[2] = ImageColorAllocate($base_image,$color[2][0],$color[2][1],$color[2][2]);
             imagefill($base_image, 0, 0, $col[0]);
 
             for($y=0; $y<$h; $y++) {
                 for($x=0; $x<$w; $x++) {
                     if ($frame[$y][$x] == '1') {
-                        ImageSetPixel($base_image,$x+$outerFrame,$y+$outerFrame,$col[1]); 
+                        if(($y <= 7 ) && ($x <= 7|| $x >= $w-7)){
+                        	$key = 2;
+                        }else if($y >= $h-7 && $x <= 7){
+                        	$key = 2;
+                        }else{
+                        	$key = 1;    
+                        }
+                         ImageSetPixel($base_image,$x+$outerFrame,$y+$outerFrame,$col[$key]);
                     }
                 }
             }
-            
+            // ImageCreate
+            // imagecreatetruecolor imagen PNG fondo transparente usa esto
             $target_image =ImageCreate($imgW * $pixelPerPoint, $imgH * $pixelPerPoint);
             ImageCopyResized($target_image, $base_image, 0, 0, 0, 0, $imgW * $pixelPerPoint, $imgH * $pixelPerPoint, $imgW, $imgH);
             ImageDestroy($base_image);
