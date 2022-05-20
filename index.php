@@ -1050,7 +1050,7 @@
         &copy; Copyright <strong><span>IMPERIO B</span></strong>. Todos los derechos reservados
       </div>
       <div class="designer">
-        Designed by <a href="https://gruposetic.com/">Grupo SETIC</a>
+        Desarrollado por <a href="https://gruposetic.com/">Grupo SETIC</a>
       </div>
     </div>
   </footer><!-- End Footer -->
