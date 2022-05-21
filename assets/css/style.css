@@ -16,6 +16,21 @@ a:hover {
   color: #d9ba85;
   text-decoration: none;
 }
+/*-------------------------------------------
+#Scroll
+--------------------------------------------*/
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgba(206, 201, 122, 0.1);
+}
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(50deg, #cda45e, #000000);
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.12) 0 3px 13px 1px;
+}
 
 /*h1, h2, h3, h4, h5, h6 {
   /*font-family: "Playfair Display", serif;

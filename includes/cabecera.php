@@ -1,11 +1,7 @@
 <?php
 header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Credentials: true');
-if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
-    // Indica los métodos permitidos.
-    header('Access-Control-Allow-Methods: GET, POST, DELETE');
-    // Indica los encabezados permitidos.
-    header('Access-Control-Allow-Headers: Authorization');
-    http_response_code(204);
-}
+header('Access-Control-Allow-Headers', 'Origin, Content-Type, Cookie, X-CSRF-TOKEN, Accept, Authorization, X-XSRF-TOKEN, Access-Control-Allow-Origin');
+header('Access-Control-Expose-Headers', 'Authorization, authenticated');
+header('Access-Control-Allow-Methods', 'GET, POST, PATCH, PUT, OPTIONS');
+header('Access-Control-Allow-Credentials', 'true');
 ?>

@@ -1,6 +1,6 @@
 <?php include("includes/cabecera.php"); ?>
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -22,7 +22,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="assets/img/icon/apple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="assets/img/icon/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/icon/android-icon-192x192.png">
+  <!-- <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/icon/android-icon-192x192.png"> -->
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="assets/img/icon/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icon/favicon-16x16.png">
@@ -107,7 +107,7 @@
         <ul>
           <!-- <li>En</li>
           <li><a href="#">De</a></li> -->
-          <li><a href=""><i class="fab fa-facebook"></a></i></li>
+          <li><a href="https://www.facebook.com/Imperio-B-169791443667509" target="_blank"><i class="fab fa-facebook"></a></i></li>
           <li><a href=""><i class="fab fa-instagram"></a></i></li>
           <li><a href=""><i class="fab fa-twitter"></a></i></li>
           <li><a href=""><i class="fab fa-youtube"></a></i></li>
@@ -237,7 +237,7 @@
         <div class="row">
 
           <div class="col-lg-4">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100" style="height: 21.5rem;">
               <span>01</span>
               <h4>Te ayudamos a optimizar tù presupuesto</h4>
               <p>Les será muy útil nuestra forma de trabajar, ya que con esto podrán 
@@ -246,7 +246,7 @@
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200" style="height: 21.5rem;">
               <span>02</span>
               <h4>Estilo de evento y Catering</h4>
               <p>¿Como seria mejor mi evento?, ¿Que menú le daria a mis invitado?, ¿Al aire libre o un espacio cerrado con clima?
@@ -256,7 +256,7 @@
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box" data-aos="zoom-in" data-aos-delay="300" style="height: 21.5rem;">
               <span>03</span>
               <h4>Flexibilidad</h4>
               <p>Nos ajustamos a tu necesidades, 
