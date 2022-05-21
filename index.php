@@ -1,6 +1,6 @@
 <?php include("includes/cabecera.php"); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
@@ -1069,6 +1069,32 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    var invocation = new XMLHttpRequest();
+    var url = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+
+    function callOtherDomain() {
+      if(invocation) {
+        invocation.open('GET', url, true);
+        invocation.onreadystatechange = handler;
+        invocation.send();
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v13.0'
+          });
+        };
+
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      }
+    }
+  </script>
 
 </body>
 
