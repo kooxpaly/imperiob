@@ -94,6 +94,8 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v14.0" nonce="GRKmIoQ4"></script>
   <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-center justify-content-md-between">
@@ -270,7 +272,11 @@
         </div>
 
       </div>
-    </section><!-- End Why Us Section -->
+    </section id="" class="why-us">
+    <!-- End Why Us Section -->
+    <section>
+      <div class="fb-comments" data-href="https://www.facebook.com/banqueteraimperio/photos/a.176572569656063/1047626589217319/" data-width="600" data-numposts="5"></div>
+    </section>
 
     <!-- ======= Menu Section ======= -->
     <!-- <section id="menu" class="menu section-bg">
