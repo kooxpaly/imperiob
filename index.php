@@ -199,7 +199,7 @@
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <h3 style="font-family: 'Kaushan Script', cursive;font-weight:100;">Queremos hacer tu sueño realidad </h3>
             <p class="fst-italic">
-              Nosotros somos IMPERO B y desde que iniciamos hemos 
+              Nosotros somos IMPERIO B y desde que iniciamos hemos 
               creado cada evento con el corazón, nos gusta realizar decoraciones 
               únicas que tengan ese sello personalizado para hacerte lucir como anfitrión.
             </p>
@@ -209,7 +209,7 @@
               <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
             </ul> -->
             <p class="fst-italic">
-              Nuestra principal objetivo es ofrecer un servicio de calidad, 
+              Nuestro principal objetivo es ofrecer un servicio de calidad, 
               motivado por darle al cliente y sus invitados un trato único, amable y confiable.
             </p>
             <p class="fst-italic">
